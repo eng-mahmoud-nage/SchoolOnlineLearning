@@ -1,0 +1,71 @@
+body {
+    box-sizing: border-box;
+}
+
+table tr {
+    text-align: center;
+}
+
+select {
+    width: 100%;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    background-color: rgb(63, 121, 122, 0.5);
+}
+
+input[type=submit] {
+    background: #00B5B8;
+    color: #fff;
+    display: block;
+    padding: 7px 12px;
+    border-radius: 2px;
+    border: 1px solid transparent;
+}
+
+.table th,
+.table td {
+    vertical-align: middle !important;
+}
+
+
+/* //datatable */
+
+input .f_search {
+    width: 100px;
+}
+
+.dataTables_wrapper {
+    width: 100%;
+    color: white;
+}
+
+.navbar {
+    background-color: #0f4d75;
+}
+
+.navbar .blue-grey.darken-4 {
+    color: white !important;
+}
+
+.navbar .dropdown-toggle::after {
+    color: white !important;
+}
+
+.main-content {
+    background: url('../../public/edu.jpg'), linear-gradient(45deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    background-blend-mode: overlay;
+}
+
+.main-panel .main-content {
+    padding-left: 0px;
+}
+
+h4 {
+    margin: 5px;
+}
+
+@media (min-width: 1024px) {
+    .media iframe {
+        height: 500px;
+    }
+}
